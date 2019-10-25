@@ -1,0 +1,17 @@
+{
+  "name": "glass",
+  "version": "1.0.0",
+  "description": "Electron powered web browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Cam M",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

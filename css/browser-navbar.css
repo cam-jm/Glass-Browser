@@ -1,0 +1,76 @@
+#browser-navbar {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #ffffff;
+}
+
+#browser-navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 9px 7px 0;
+}
+
+#browser-navbar a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#browser-navbar a.disabled {
+    color: #bbb;
+    cursor: default;
+}
+
+#browser-navbar .fa-angle-double-left,
+#browser-navbar .fa-angle-left,
+#browser-navbar .fa-angle-right,
+#browser-navbar .fa-commenting-o {
+    /* small positioning adjustment */
+    position: relative;
+    top: -1px;
+}
+
+#browser-navbar .input-group {
+    flex: 1;
+    display: flex;
+    margin: 0 5px;
+}
+
+#browser-navbar .input-group input {
+    flex: 1;
+    margin: 4px 0 3px;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #000;
+    outline: 0;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+#browser-navbar .input-group input:focus,
+#browser-navbar .input-group input:active,
+#browser-navbar .input-group input:hover {
+    outline: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border: 1px solid #000;
+}
+
+#browser-navbar .input-group a {
+    border: 1px solid #bbb;
+    border-left: 0;
+    padding: 4px 0;
+    margin: 4px 0 3px;
+    flex: 0 0 30px;
+    text-align: center;
+}
+
+#browser-navbar a:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
